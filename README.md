@@ -13,7 +13,7 @@ function WeatherTypePoisonRain() {
     var weatherType = 'poison_rain';
     Weather.WeatherPluginBase.call(this, weatherType);
 }
-WeatherTypePoisonRain.prototype = Object.create(WeatherPluginBase.prototype);
+WeatherTypePoisonRain.prototype = Object.create(Weather.WeatherPluginBase.prototype);
 WeatherTypePoisonRain.constructor = Weather.WeatherPluginBase;
 
 WeatherTypePoisonRain.prototype.createBitmap = function () {
