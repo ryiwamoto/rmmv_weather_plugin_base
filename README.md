@@ -1,4 +1,4 @@
-# Weather Core
+# Weather Plugin Base
 (PRG Maker MV Plugin) This Plugin provides Weather Plugin framework. Load this plugin before Weather Plugins.
 
 ## Usage
